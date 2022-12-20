@@ -1,0 +1,303 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6849503400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify that the user is able to register account successfully",
+        "description": "",
+        "id": "register-page-test;verify-that-the-user-is-able-to-register-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 642978700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 163724100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on my Account link",
+            "match": {
+              "location": "AccountLoginSteps.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 905043300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select \"Register\" from my Account options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountLoginSteps.iSelectFromMyAccountOptions(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131844800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter First name \"test123hv\"and last name \"Sares\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123hv",
+                  "offset": 20
+                },
+                {
+                  "val": "Sares",
+                  "offset": 45
+                }
+              ],
+              "location": "AccountLoginSteps.iEnterFirstNameAndLastName(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72454800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter email address \"tester58hv@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester58hv@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "AccountLoginSteps.iEnterEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60705500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Telephone number \"0789458585\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0789458585",
+                  "offset": 26
+                }
+              ],
+              "location": "AccountLoginSteps.iEnterTelephoneNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132343200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter password \"Password987\" and confirm password \"Password987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password987",
+                  "offset": 18
+                },
+                {
+                  "val": "Password987",
+                  "offset": 53
+                }
+              ],
+              "location": "AccountLoginSteps.iEnterPasswordAndConfirmPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38461600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select \"Yes\" radio button to subscribe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountLoginSteps.iSelectRadioButtonToSubscribe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45368700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the privacy policy checkbox",
+            "match": {
+              "location": "AccountLoginSteps.iClickOnThePrivacyPolicyCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259632000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on continue to Register",
+            "match": {
+              "location": "AccountLoginSteps.iClickOnContinueToRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32451700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am able to see account created message \"Your Account Has Been Created!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Account Has Been Created!",
+                  "offset": 42
+                }
+              ],
+              "location": "RegisterPageSteps.iAmAbleToSeeAccountCreatedMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154704500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on continue to navigate to account",
+            "match": {
+              "location": "AccountLoginSteps.iClickOnContinueToNavigateToAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46935800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on my Account link",
+            "match": {
+              "location": "AccountLoginSteps.iClickOnMyAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264270600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select \"Logout\" from my Account options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountLoginSteps.iSelectFromMyAccountOptions(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32649300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am able to see the \"Account Logout\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Logout",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountLoginSteps.iAmAbleToSeeTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200111000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on continue to navigate to Homepage",
+            "match": {
+              "location": "AccountLoginSteps.iClickOnContinueToNavigateToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Sanity1"
+          },
+          {
+            "line": 13,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Register Page Test",
+    "description": "\r\nAs a user I am able to register on the tutorials ninja website",
+    "id": "register-page-test",
+    "keyword": "Feature",
+    "uri": "RegisterPage.feature"
+  }
+]
